@@ -279,10 +279,7 @@ padding-bottom: 94px;
 margin-bottom: 50px;
   color: #212121;
 }
-.team-container {
 
-  /* padding-bottom: 50px; */
-}
 .team{
   background-color: #F5F4FA;
   padding: 94px 0;
@@ -505,9 +502,7 @@ display: flex;
   padding: 28px 24px;
 }
 
-.card-text {
-  
-}
+
 .footer-message {
   font-family: 'Roboto';
     font-style: normal;
