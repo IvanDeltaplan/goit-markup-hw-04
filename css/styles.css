@@ -18,6 +18,12 @@ body {
     0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
 
+
+
+
+
+
+
 p,
 h1,
 h2,
@@ -116,6 +122,7 @@ section {
   height: 12px;
   margin-top: 0px;
   fill: currentColor;
+  margin-right: 10px;
 }
 
 .mail-icon .tel-icon:hover,
@@ -126,6 +133,7 @@ section {
 .tel-icon {
   height: 16px;
   width: 10px;
+  margin-right: 10px;
   fill: currentColor;
 }
 
@@ -187,12 +195,28 @@ a {
   /* identical to box height */
 
   letter-spacing: 0.03em;
-  /* margin-bottom: 20px; */
+  
+display: flex;
+  color: #2196f3;
+}
 
+.logo-footer{
+  font-family: "Raleway", sans-serif;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
+  margin-bottom: 20px;
+  display: flex;
   color: #2196f3;
 }
 .web-blue {
   color: #18a0fb;
+  
 }
 .web-white {
   color: white;
@@ -315,6 +339,7 @@ li {
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
+  margin-bottom: 16px;
   /* identical to box height */
 
   text-align: center;
@@ -445,8 +470,8 @@ li {
   display: flex;
   justify-content: center;
   gap: 10px;
-  margin-top: 16px;
-  margin-bottom: 30px;
+  /* margin-top: 16px;
+  margin-bottom: 30px; */
 }
 
 .card-soc-link {
@@ -565,15 +590,20 @@ li {
 .logo-border {
   width: 106px;
   height: 60px;
-
-  /* outline: #188ce8 solid 2px; */
 }
+  .fill-icon {
+    color: #afb1b8;
+    fill: #afb1b8;
+  }
+  /* outline: #188ce8 solid 2px; */
+
 
 .logo-clients-icon:hover,
 .logo-clients-icon:focus {
   /* background-color: var(--accent-color); */
   cursor: pointer;
   color: var(--accent-color);
+  border-color: var(--accent-color);
 }
 
 .clients-position {
@@ -620,5 +650,9 @@ li {
 }
 .footer-background {
   padding: 60px 0;
-  background-color: var(--second-btn-color);
+  background-color: #2F303A;
+}
+.footer-links {
+
+  padding-top: 12px;
 }
